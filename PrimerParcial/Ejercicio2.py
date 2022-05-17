@@ -18,13 +18,16 @@ print("""Estimado usuario existen dos tipo de velocidad, velocidad en MRU(Movimi
 opciones = input("Digite una opción del 1 al 2: ")
 #Usaremos condicional if
 #Si opcines = 1, el usuario digita distancia y tiempo.
-if opciones =='2':
+if opciones =='1':
     #distancia, representa el dato que el usuario ingresará que puede ser un vide flotante o entero ya que si hay distancia de 4.7m
     distancia = float(input("Digite el valor de la distancia:   "))
     #tiempo, de valor será entero o flotante ya que en fisica si hay tiempo de 8.9 segundos
     tiempo = float(input("Digite el valor del tiempo:     "))
     #Creamos el sistema o la ecuación a resolver el problema.
     velocidad = distancia / tiempo #Formula v= d/t
+    #Ejecutamos la velocidad
+    print("La velociad es:  {}".format(velocidad)+  'm/s')
+  
 
 #Segunda opcion se creará linea de código
 #Creamos un If, si opciones == 2, el usuario digita velocidad inicial, aceleracion y tiempo
