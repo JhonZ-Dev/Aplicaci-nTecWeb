@@ -28,3 +28,6 @@ for n in range(1, materias+1): #Escogemos el rango que va a empezar a 1, y llega
    suma = suma + cali1 # Formula para la suma
    prom = suma / materias #Formula para calcular el promedio
    porcentaje = (suma / prom) * 100 #Formula para calcular el porcentaje
+print("El valor de la suma es:  {}".format(suma))
+print("El valor del promedio de calificaciones es:  {}".format(prom))
+print("El valor del porcentaje de calificaiones es de: {} ".format(porcentaje) + '%')
