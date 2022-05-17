@@ -7,3 +7,4 @@ if opciones == '1':
     dias = int(input("Digite el numero de dias que va a transformar a años: "))
     año = dias * (1 / 365)
     print("El numeros de años es :  {}".format(año))
+#Aqui va el uso del elif
