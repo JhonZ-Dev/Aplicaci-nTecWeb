@@ -21,4 +21,4 @@ elif menu ==2:#Si menu es igual a 2
   print("El valor de libras a gramos es:  {}".format(gramos)) #Imprimimos mensajes
 else:
   print("Digite un valor correcto y vuelva a ejecutar el prgrama.") #Caso contrario, error
-  
+  ###Ejercicio Terminado
