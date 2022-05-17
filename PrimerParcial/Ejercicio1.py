@@ -11,6 +11,7 @@ if opciones == '1': # Si opcion == 1 entonces calculará el numero de dias a añ
     año = dias * (1 / 365)
     #Finalmente se usa el format que es nos permite incluir en una cadena, texto ordinario y caracteres de formateo,
     print("El numeros de años es :  {}".format(año))
+<<<<<<< HEAD
 elif opciones == '2': #Uso del elif: es una forma común de controlar el flujo de un programa, lo que te permite ejecutar bloques de código específicos según el valor de algunos datos
     #Representa los dias, y netamente es un valor entero
     diasSemana = int(input("Digite el numero de dias que va a transformar a semanas"))
@@ -19,3 +20,6 @@ elif opciones == '2': #Uso del elif: es una forma común de controlar el flujo d
     print("El numero de dias a semanas es:  {}".format(semana))#Printiamos el resultado
 else:
     print("Digite un valor correcto:    x-x") #Caso contrario si el usuario digita algún valor incorrecta el sistema le mandará un mensaje
+=======
+#Aqui va el uso del elif
+>>>>>>> f7b063cf7e280844c6646b0f87166feb36ff8c56
