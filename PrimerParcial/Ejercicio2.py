@@ -25,3 +25,23 @@ if opciones =='2':
     tiempo = float(input("Digite el valor del tiempo:     "))
     #Creamos el sistema o la ecuación a resolver el problema.
     velocidad = distancia / tiempo #Formula v= d/t
+
+#Segunda opcion se creará linea de código
+#Creamos un If, si opciones == 2, el usuario digita velocidad inicial, aceleracion y tiempo
+elif opciones == '2':
+    #VelocidadInicia, en MRUV la velocidad inicial de un objeto es la velocidad con la inicialemnte inicie el objeto
+    #Esta velocidad puede ser de tipo entero o flotante.
+    velocidadInicial = float(input("Digite el valor de la velocidad inicial:  "))
+    #Aceleracion, en física, la aceleración es la derivada de la velocidad respecta a tiempo.
+    aceleracion = float(input("Digite el valor de la aceleración: "))
+    #El tiempo, será de un valor entero o flotante, significa el tiempo que dura la particula en recorrer un cierto recorrido.
+    tiempo = float(input("Digite el valor del tiempo: "))
+    #Creamos la formula para la solución
+    velocidadFinal = (velocidadInicial) + (aceleracion * tiempo)
+    #Printiamos el valor de la velocidad final, recordemos que la velocidad final en físca
+    #Es la velocidad con la que termina la particula o el cuerpo.
+    print("El valor de la velocidad es {}".format(velocidadFinal)+ 'm/s')
+    #Creamos un else, donde si el usuario digita otro valor difrente de 1 y 2 
+    #El sistema orrogará un error.
+else:
+    print("Estimado usuario digite un valor")    
